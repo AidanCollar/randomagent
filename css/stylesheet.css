@@ -1,0 +1,40 @@
+body{
+    color:rgb(56, 0, 0);
+    background-image: url("../images/kuromi-hello-kitty-2732x2732-9495.png");
+    background-size: 200px;
+    background-position-x: center;
+    background-position-y: center;
+}
+body h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20%;
+}
+p{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    font-size: 25pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+button{
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    font-size: 30pt;
+    background-color: pink;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+
