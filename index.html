@@ -31,7 +31,7 @@
         const img=document.querySelector('img')
         img.src=`images/${data}.webp`
         localStorage.setItem("count",clickcount)
-        document.querySelector('#number').textContent=`Vous avez eu un nouvel agent ${localStorage.getItem("count")} fois :)`
+        document.querySelector('#number').textContent=`Tu as cliqué ${localStorage.getItem("count")} fois :)`
     }
     selectagent()
     document.querySelector('button').addEventListener('click',selectagent)
